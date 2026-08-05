@@ -1,5 +1,5 @@
 const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/runtime-D4WYLpEU.js","assets/runtime-C4W5ypOp.css"])))=>i.map(i=>d[i]);
-import{_ as a}from"./index-BufvxLpP.js";const e=`
+import{_ as a}from"./index-t_TkVJn9.js";const e=`
   <div class="app">
     <section class="game-column" aria-label="PULSEHOLD proof game">
       <header class="brand">
