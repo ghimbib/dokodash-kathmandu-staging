@@ -1,6 +1,6 @@
 DokoDash Kathmandu staging artifact
 Source: ghimbib/dokodash
 Branch: codex/kathmandu-living-route-20260803
-Commit: 2e92e4d
+Commit: 5265e2b
 Build base: /dokodash-kathmandu-staging/
 Boundary: staging-only; not production
