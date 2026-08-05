@@ -1,0 +1,56 @@
+# DokoDash
+
+> DokoDash is a web-first 2D platformer inspired by Nepal's harvest paths, festivals, wildlife, Himal routes, and Kathmandu rooftops. The canonical public site is https://dokodash.app/.
+
+## Canonical URLs
+
+- [Play DokoDash](https://dokodash.app/): Official production game.
+- [Staging](https://staging.dokodash.app/): QA and preview environment for upcoming changes. Do not treat staging as canonical content.
+
+## Project Summary
+
+DokoDash is a browser-playable Nepal-themed platformer built as a fast web vertical slice. Players choose a hero, collect rice, avoid hazards and enemies, use Nepali food powerups, and clear a five-route map across Nepal-inspired locations.
+
+The game is currently focused on proving the vertical slice, mobile playability, route variety, leaderboard safety, and shareable web deployment before larger art or app-store expansion.
+
+## Heroes
+
+- Bir, Terrace Scout: safer first-clear hero with four hearts and a longer Dal Bhat Strength powerup.
+- Asha, Himal Runner: faster hero with double jump and a longer Momo Dash powerup.
+
+## Routes
+
+- Khet Terrace, Ilam: hillside terrace-field route and first playable level.
+- Festival Run, Tansen: festival route with route-specific hero attire and setpieces.
+- Terai Wilds, Chitwan: lowland wildlife route with Terai styling and hazards.
+- Everest Ascent, Solukhumbu: Himal route with snow, ascent pressure, and Yeti hazards.
+- Kathmandu Roofs, Kathmandu: rooftop route with moving platforms and Kathmandu finish art.
+
+## Gameplay Notes
+
+- Collectible rice grains act as coins and scoring pickups.
+- Powerups include momo, sel roti, and dal bhat from overhead doko baskets.
+- Enemies include scarecrow, bird guardian, Yeti, and Kathmandu route hazards.
+- Desktop controls use keyboard movement and jump keys.
+- Mobile controls use touch movement, jump controls, and responsive HUD overlays.
+- The leaderboard is moderated server-side for infeasible scores, repeated invalid submissions, and abusive names.
+- Player feedback can be submitted from inside the game with runtime context.
+
+## Important Files for AI Agents
+
+- [Home page](https://dokodash.app/): The playable game and character select experience.
+- [llms.txt](https://dokodash.app/llms.txt): This AI-readable project summary.
+- [Production smoke target](https://dokodash.app/): Main branch production deployment.
+- [Staging smoke target](https://staging.dokodash.app/): Staging branch deployment for QA.
+
+## Source and Maintenance
+
+- Repository: https://github.com/ghimbib/dokodash
+- Production branch: `main`
+- Staging branch: `staging`
+- Production domain: `dokodash.app`
+- Staging domain: `staging.dokodash.app`
+
+## Contact
+
+For project context or corrections, use the public repository or the DokoDash project channel where the game is being coordinated.

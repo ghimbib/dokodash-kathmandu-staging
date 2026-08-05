@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta
+      name="description"
+      content="Play DokoDash, a free Nepali-inspired browser platformer with rice pickups, food powerups, route badges, and quick mobile-friendly levels."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="DokoDash - Free Nepali-Inspired Browser Platformer" />
+    <meta
+      property="og:description"
+      content="Dash through Nepali-inspired terraces, festivals, plains, mountains, and rooftops in a free browser platformer."
+    />
+    <meta property="og:url" content="https://dokodash.app/" />
+    <meta property="og:site_name" content="DokoDash" />
+    <meta property="og:image" content="https://dokodash.app/social-preview.png" />
+    <meta property="og:image:secure_url" content="https://dokodash.app/social-preview.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Bir and Asha doing namaste in front of a DokoDash Kathmandu finish gate."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DokoDash - Free Nepali-Inspired Browser Platformer" />
+    <meta
+      name="twitter:description"
+      content="Play a free Nepali-inspired browser platformer with rice pickups, food powerups, and route badges."
+    />
+    <meta name="twitter:image" content="https://dokodash.app/social-preview.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Bir and Asha doing namaste in front of a DokoDash Kathmandu finish gate."
+    />
+    <title>DokoDash - Free Nepali-Inspired Browser Platformer</title>
+    <link rel="canonical" href="https://dokodash.app/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://dokodash.app/#website",
+            "name": "DokoDash",
+            "url": "https://dokodash.app/",
+            "inLanguage": "en",
+            "description": "Play DokoDash, a free Nepali-inspired browser platformer with rice pickups, food powerups, route badges, and quick mobile-friendly levels."
+          },
+          {
+            "@type": "VideoGame",
+            "@id": "https://dokodash.app/#game",
+            "name": "DokoDash",
+            "url": "https://dokodash.app/",
+            "image": "https://dokodash.app/social-preview.png",
+            "description": "DokoDash is a free web-first 2D platformer inspired by Nepal's harvest paths, festivals, wildlife, Himal routes, and Kathmandu rooftops.",
+            "genre": ["2D platformer", "browser game", "mobile web game"],
+            "gamePlatform": ["Web browser", "Mobile web", "Desktop web"],
+            "operatingSystem": "Any modern web browser",
+            "playMode": "SinglePlayer",
+            "numberOfPlayers": "1",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "url": "https://dokodash.app/"
+            }
+          }
+        ]
+      }
+    </script>
+    <script>
+      if (window.location.hostname === 'dokodash.bibekghimire.com') {
+        window.location.replace('https://dokodash.app' + window.location.pathname + window.location.search + window.location.hash);
+      }
+    </script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-REF7KW7X48"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-REF7KW7X48', { transport_type: 'beacon' });
+    </script>
+    <script type="module" crossorigin src="/dokodash-kathmandu-staging/assets/index-xOAy8n2I.js"></script>
+    <link rel="stylesheet" crossorigin href="/dokodash-kathmandu-staging/assets/index-BStCzN8L.css">
+  </head>
+  <body>
+    <main id="game-shell" class="is-booting" aria-label="DokoDash game">
+      <div id="game-root"></div>
+
+      <section id="character-select" class="character-select" aria-label="Choose a hero" hidden>
+        <div class="select-shell">
+          <div class="select-copy">
+            <div class="select-meta">
+              <span class="select-kicker">DokoDash</span>
+              <span class="build-version" data-build-version>v0.3.0</span>
+            </div>
+            <h1>DokoDash</h1>
+            <p id="select-hero-title">Dash Nepal's harvest trails</p>
+            <strong id="select-hero-detail">Pick Bir for safer terrace clears or Asha for Himal speed. Chase rice streaks, open tokari baskets, and finish with namaste energy.</strong>
+            <div class="route-map" aria-label="DokoDash route through Nepal">
+              <div class="route-map-heading">
+                <span>Nepal Route</span>
+                <strong id="route-map-title">Khet Terrace</strong>
+              </div>
+              <svg class="route-map-art" viewBox="0 0 640 330" role="img" aria-label="Map of Nepal with level stops">
+                <!-- Nepal outline derived from Natural Earth public-domain vector data. -->
+                <path
+                  class="nepal-outline"
+                  d="M531.1 200.3 L533.6 201.1 L533.3 204.9 L526.1 219.5 L526.8 228.6 L523.3 239.7 L530.0 247.7 L533.7 258.0 L527.2 276.7 L523.6 278.8 L518.1 273.6 L503.2 278.2 L494.3 275.6 L488.2 279.9 L483.9 276.6 L478.0 276.8 L474.6 267.6 L457.3 276.3 L434.8 265.9 L430.1 267.4 L420.4 263.7 L410.8 268.3 L404.8 263.7 L404.2 256.2 L398.8 253.2 L383.2 259.3 L377.5 258.2 L375.8 253.3 L368.3 253.6 L357.7 245.0 L347.7 243.6 L349.3 234.8 L346.6 229.2 L330.0 225.8 L320.9 218.6 L315.2 222.4 L306.0 222.7 L307.1 227.4 L293.2 221.5 L282.6 220.8 L277.1 228.1 L269.2 222.2 L249.2 219.5 L245.4 209.0 L230.8 209.9 L211.1 197.6 L202.1 200.8 L182.0 189.5 L178.0 184.5 L172.7 186.2 L166.1 174.0 L152.2 169.8 L133.8 157.3 L130.2 158.5 L130.3 163.4 L121.9 160.0 L106.5 149.0 L106.2 145.8 L111.6 134.7 L116.2 133.8 L116.1 129.4 L118.2 129.8 L119.3 124.1 L115.8 118.5 L124.8 108.7 L124.0 100.6 L142.2 87.2 L151.0 76.8 L157.5 78.0 L162.3 87.0 L168.5 87.5 L171.2 81.3 L175.5 79.6 L177.5 68.3 L183.9 70.7 L189.4 66.0 L214.3 70.6 L217.8 84.8 L238.2 91.9 L253.6 105.8 L261.0 105.6 L265.6 110.0 L271.3 107.8 L276.1 115.6 L280.9 116.2 L289.7 130.8 L295.8 132.3 L298.8 128.6 L310.3 125.2 L319.5 127.0 L326.9 139.1 L325.6 143.6 L334.5 148.4 L338.5 154.4 L347.1 156.5 L357.4 164.5 L363.5 164.7 L370.2 159.4 L375.8 161.7 L371.4 170.1 L373.1 177.6 L399.4 179.8 L403.7 175.4 L405.9 181.3 L412.7 185.5 L417.9 198.7 L425.8 196.8 L423.5 188.9 L428.0 184.8 L430.5 192.8 L442.2 197.7 L446.7 195.5 L448.9 187.5 L454.6 187.4 L458.7 191.9 L472.7 195.5 L480.6 202.1 L491.5 200.6 L491.8 203.3 L510.6 203.1 L516.3 197.8 L530.0 200.1 Z"
+                />
+                <path
+                  id="nepal-route-path"
+                  class="nepal-route"
+                  d="M521.2 250.3 L290.9 200.0 L334.7 213.7 L459.2 206.1 L384.1 208.7"
+                />
+              </svg>
+              <button class="route-node is-open is-selected" type="button" data-route-level="terrace-field" aria-pressed="true">
+                <strong>1</strong>
+                <span>
+                  <b>Khet Terrace</b>
+                  <small>Ilam</small>
+                </span>
+              </button>
+              <button class="route-node is-locked" type="button" data-route-level="ridge-run" aria-pressed="false">
+                <strong>2</strong>
+                <span>
+                  <b>Festival Run</b>
+                  <small>Tansen</small>
+                </span>
+              </button>
+              <button class="route-node is-locked" type="button" data-route-level="storm-lift-pass" aria-pressed="false">
+                <strong>3</strong>
+                <span>
+                  <b>Terai Wilds</b>
+                  <small>Chitwan</small>
+                </span>
+              </button>
+              <button class="route-node is-locked" type="button" data-route-level="everest-ascent" aria-pressed="false">
+                <strong>4</strong>
+                <span>
+                  <b>Everest Ascent</b>
+                  <small>Solukhumbu</small>
+                </span>
+              </button>
+              <button class="route-node is-locked" type="button" data-route-level="kathmandu-rooftop-dash" aria-pressed="false">
+                <strong>5</strong>
+                <span>
+                  <b>Kathmandu Roofs</b>
+                  <small>Kathmandu</small>
+                </span>
+              </button>
+              <button class="route-node is-locked" type="button" data-route-level="pokhara-lake-flight" aria-pressed="false">
+                <strong>6</strong>
+                <span>
+                  <b>Pokhara Flight</b>
+                  <small>Pokhara</small>
+                </span>
+              </button>
+              <div id="route-map-detail" class="route-map-detail">1. Khet Terrace - Ilam - Eastern hills</div>
+            </div>
+            <span id="route-hint" class="hero-lock-note">Finish a level to unlock the route map. Hero stays locked until this run ends.</span>
+          </div>
+
+          <div class="select-stack">
+            <div id="quick-start-panel" class="quick-start-panel" aria-live="polite">
+              <span id="quick-start-kicker">Ready route</span>
+              <strong id="quick-start-title">Play now</strong>
+              <p id="quick-start-detail">Start Khet Terrace with Bir, the safer first-clear hero.</p>
+              <ul id="quick-start-proof" class="quick-start-proof" aria-label="Quick start facts">
+                <li>60-second first run</li>
+                <li>No signup</li>
+                <li>Beat your score</li>
+              </ul>
+              <button id="quick-start-button" class="quick-start-button" type="button">Play Now</button>
+            </div>
+            <div class="character-grid" role="list">
+              <article class="character-card is-selected" data-hero-card="boy" role="listitem" tabindex="0" aria-selected="true">
+                <span
+                  class="hero-portrait hero-portrait-boy is-animated"
+                  data-portrait-frames="18"
+                  style="--hero-portrait-frames: 18;"
+                  aria-hidden="true"
+                >
+                  <img data-src="/assets/characters/bir-terrace-sheet.png" alt="" />
+                </span>
+                <span class="character-name">Bir</span>
+                <span class="character-title">Terrace Scout</span>
+                <span class="character-role">Safer first clear</span>
+                <span class="character-stat">4 hearts</span>
+                <span class="character-power">Dal Bhat heals longer</span>
+                <button class="character-start" type="button" data-hero-start="boy">Start as Bir</button>
+              </article>
+
+              <article class="character-card" data-hero-card="girl" role="listitem" tabindex="0" aria-selected="false">
+                <span
+                  class="hero-portrait hero-portrait-girl is-animated"
+                  data-portrait-frames="18"
+                  style="--hero-portrait-frames: 18;"
+                  aria-hidden="true"
+                >
+                  <img data-src="/assets/characters/asha-terrace-sheet.png" alt="" />
+                </span>
+                <span class="character-name">Asha</span>
+                <span class="character-title">Himal Runner</span>
+                <span class="character-role">Faster high route</span>
+                <span class="character-stat">Double jump</span>
+                <span class="character-power">Momo Dash lasts longer</span>
+                <button class="character-start" type="button" data-hero-start="girl">Start as Asha</button>
+              </article>
+            </div>
+
+            <div id="local-record" class="local-record" hidden></div>
+            <div id="daily-challenge" class="local-record daily-challenge" hidden></div>
+            <div id="leaderboard-panel" class="leaderboard-panel" aria-live="polite">
+              <div class="leaderboard-heading">
+                <span>Leaderboard</span>
+                <strong id="leaderboard-status">Loading</strong>
+              </div>
+              <ol id="leaderboard-list" class="leaderboard-list"></ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hud" aria-live="polite">
+        <div class="hud-top">
+          <div class="hud-chip brand-chip">
+            <span class="brand-mark"></span>
+            <span>DokoDash</span>
+          </div>
+          <div class="hud-chip">
+            <span class="hud-label">Level</span>
+            <strong id="level-name">Khet Terrace</strong>
+          </div>
+          <div class="hud-chip">
+            <span class="hud-label">Time</span>
+            <strong id="level-time">0:00</strong>
+          </div>
+          <div class="hud-chip">
+            <span class="hud-label">Rice</span>
+            <strong id="rice-count">0</strong>
+          </div>
+          <div class="hud-chip score-chip">
+            <span class="hud-label">Score</span>
+            <strong id="score-count">0 pts</strong>
+          </div>
+          <div class="hud-chip hero-name-chip">
+            <span class="hud-label">Hero</span>
+            <strong id="hero-name">Bir</strong>
+          </div>
+          <div class="hud-chip">
+            <span class="hud-label">Health</span>
+            <span id="health-pips" class="health-pips" aria-label="Health"></span>
+          </div>
+          <div class="hud-chip damage-chip">
+            <span class="hud-label">Damage</span>
+            <strong id="damage-count">0</strong>
+          </div>
+          <div class="hud-chip power-chip">
+            <span class="hud-label">Power</span>
+            <strong id="power-name">None</strong>
+          </div>
+          <div class="hud-chip objective-chip">
+            <span class="hud-label">Goal</span>
+            <strong id="objective-text">Climb the terraces</strong>
+          </div>
+          <button id="feedback-toggle" class="hud-icon-button feedback-toggle" type="button" aria-label="Send feedback" aria-controls="feedback-panel" aria-expanded="false">
+            <span class="feedback-icon" aria-hidden="true"></span>
+          </button>
+          <button id="pause-toggle" class="hud-icon-button" type="button" aria-label="Pause">
+            <span class="pause-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div id="level-banner" class="level-banner" hidden>
+          <strong id="banner-title">Level Clear</strong>
+          <span id="banner-subtitle">The harvest path is open.</span>
+        </div>
+
+        <div id="respawn-indicator" class="respawn-indicator" hidden>
+          <strong id="respawn-title">Spawning...</strong>
+          <span id="respawn-subtitle">Returning to checkpoint</span>
+        </div>
+
+        <div id="toast" class="toast" hidden></div>
+      </section>
+
+      <section id="pause-menu" class="pause-menu" aria-label="Settings" hidden>
+        <div class="pause-panel">
+          <div class="pause-heading">
+            <span class="pause-kicker">DokoDash</span>
+            <span class="build-version" data-build-version>v0.3.0</span>
+            <h2>Paused</h2>
+          </div>
+          <label class="sound-toggle" for="sound-enabled">
+            <span>Sound</span>
+            <input id="sound-enabled" type="checkbox" />
+            <span class="toggle-track" aria-hidden="true">
+              <span class="toggle-thumb"></span>
+            </span>
+          </label>
+          <label class="sound-toggle" for="large-controls-enabled">
+            <span>Large touch controls</span>
+            <input id="large-controls-enabled" type="checkbox" />
+            <span class="toggle-track" aria-hidden="true">
+              <span class="toggle-thumb"></span>
+            </span>
+          </label>
+          <div class="pause-actions pause-actions-triple">
+            <button id="resume-run" class="pause-action primary" type="button">Resume</button>
+            <button id="restart-run" class="pause-action" type="button">Restart</button>
+            <button id="menu-run" class="pause-action" type="button">Main Menu</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="feedback-panel" class="feedback-panel" aria-label="Player feedback" hidden>
+        <form id="feedback-form" class="feedback-shell">
+          <div class="feedback-heading">
+            <div class="feedback-title">
+              <span class="pause-kicker">DokoDash feedback</span>
+              <span class="build-version" data-build-version>v0.3.0</span>
+            </div>
+            <button id="feedback-close" class="feedback-close" type="button" aria-label="Close feedback">
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
+          <label class="feedback-field" for="feedback-category">
+            <span>Type</span>
+            <select id="feedback-category" name="category">
+              <option value="bug">Bug</option>
+              <option value="feel">Feel</option>
+              <option value="idea">Idea</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <label class="feedback-field" for="feedback-message">
+            <span>Note</span>
+            <textarea id="feedback-message" name="message" maxlength="1200" rows="5" placeholder="What should we fix or improve?"></textarea>
+          </label>
+          <label class="feedback-field" for="feedback-contact">
+            <span>Contact optional</span>
+            <input id="feedback-contact" name="contact" maxlength="120" autocomplete="email" placeholder="Email or Discord" />
+          </label>
+          <div id="feedback-context" class="feedback-context"></div>
+          <div id="feedback-status" class="feedback-status" aria-live="polite"></div>
+          <div class="feedback-actions">
+            <button id="feedback-submit" class="pause-action primary" type="submit">Send</button>
+            <button id="feedback-cancel" class="pause-action" type="button">Cancel</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="results-panel" class="results-panel" aria-label="Level results" hidden>
+        <div class="results-shell">
+          <div class="results-heading">
+            <span class="pause-kicker">DokoDash</span>
+            <h2 id="results-title">Level Clear</h2>
+            <p id="results-subtitle">The trail opens ahead.</p>
+          </div>
+          <div id="results-route-progress" class="results-route-progress" aria-live="polite">
+            <span id="results-route-label">Route progress</span>
+            <strong id="results-route-title">Level unlocked</strong>
+            <p id="results-route-detail">Save your score or continue to the next route.</p>
+          </div>
+          <div class="results-grid">
+            <div class="result-card result-card-score">
+              <span>Score</span>
+              <strong id="result-score">0 pts</strong>
+            </div>
+            <div class="result-card">
+              <span>Time</span>
+              <strong id="result-level-time">0:00</strong>
+            </div>
+            <div class="result-card">
+              <span>Rice</span>
+              <strong id="result-level-rice">0</strong>
+            </div>
+            <div class="result-card result-card-health">
+              <span>Health</span>
+              <strong><span id="result-hearts">0</span> hearts</strong>
+              <small><span id="result-damage">0</span> damage</small>
+            </div>
+          </div>
+          <span id="result-run-time" class="results-hidden-metric">0:00</span>
+          <details id="results-goals-details" class="results-details">
+            <summary>
+              <span>Badges</span>
+              <strong id="results-goals-summary">0/0 cleared</strong>
+            </summary>
+            <ul id="results-goals" class="results-goals" aria-label="Level goals"></ul>
+            <div id="results-replay-loop" class="results-replay-loop" aria-live="polite">
+              <span>Replay target</span>
+              <strong id="results-replay-title">Clean the route</strong>
+              <p id="results-replay-detail">Replay this level to chase a cleaner score.</p>
+            </div>
+          </details>
+          <div id="results-next-nudge" class="results-next-nudge" aria-live="polite">
+            <span id="results-next-kicker">Next move</span>
+            <strong id="results-next-title">Challenge someone to beat this run</strong>
+            <p id="results-next-detail">Share the score link, save your name, then run it back if they beat you.</p>
+          </div>
+          <div id="results-finale" class="results-finale" hidden>
+            <img data-src="/assets/finish/finish-gate-kathmandu.png" alt="" />
+            <div>
+              <span>Route complete</span>
+              <strong>Kathmandu cleared</strong>
+              <p>Replay any route to chase cleaner badges and a stronger score.</p>
+            </div>
+          </div>
+          <form id="results-leaderboard-form" class="results-leaderboard-form">
+            <label class="name-entry results-name-entry" for="results-player-name">
+              <span>Leaderboard name</span>
+              <input id="results-player-name" name="results-player-name" type="text" maxlength="18" autocomplete="nickname" placeholder="Name for leaderboard" />
+            </label>
+            <button id="results-save-score" class="pause-action primary" type="submit">Save Score</button>
+            <span id="results-leaderboard-status" class="results-leaderboard-status" aria-live="polite"></span>
+          </form>
+          <div class="results-actions">
+            <button id="results-primary" class="pause-action primary" type="button">Next Level</button>
+            <button id="results-restart" class="pause-action" type="button">Replay Level</button>
+            <button id="results-share" class="pause-action" type="button">Challenge a friend</button>
+            <button id="results-menu" class="pause-action" type="button">Menu</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="mobile-controls" aria-label="Touch controls">
+        <div class="action-cluster">
+          <button class="control-button action-button jump-button" type="button" data-control="jump" aria-label="Jump">
+            <span class="jump-icon"></span>
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
