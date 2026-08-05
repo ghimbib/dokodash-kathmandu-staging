@@ -1,4 +1,4 @@
-import{V as l}from"./index-iolPoCGn.js";const p=Math.PI*2,x=86,O=42,v=470,_=560,y=45e3,c=390,a=720;function Y(){const e=document.querySelector("#game-shell")??document.body;e.className="orbit-release-shell",e.removeAttribute("aria-label"),e.innerHTML=`
+import{V as l}from"./index-DdDWK3Bo.js";const p=Math.PI*2,x=86,O=42,v=470,_=560,y=45e3,c=390,a=720;function Y(){const e=document.querySelector("#game-shell")??document.body;e.className="orbit-release-shell",e.removeAttribute("aria-label"),e.innerHTML=`
     <section class="orbit-ui" aria-label="Orbit Release prototype">
       <div class="orbit-copy">
         <span>Prototype lab</span>
